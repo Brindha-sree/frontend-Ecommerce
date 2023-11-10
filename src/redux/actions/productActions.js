@@ -22,7 +22,7 @@ export const getProducts = () => async (dispatch) => {
   }
 };
 
-const API = "http://localhost:5000"
+const API = "https://ecommerces-m6oh.onrender.com"
 export const getProductDetails = (id) => async (dispatch) => {
   try {
     dispatch({ type: actionTypes.GET_PRODUCT_DETAILS_REQUEST });
