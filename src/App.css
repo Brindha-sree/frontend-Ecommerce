@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.flex {
+  display: flex;
+
+}
+
+.shopping-card {
+  justify-content: space-between;
+  background-color: #5cb1b1;
+  padding: 20px 30px;
+}
+
+.product-item {
+  padding: 40px;
 }
